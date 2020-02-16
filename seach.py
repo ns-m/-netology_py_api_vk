@@ -1,5 +1,4 @@
 from user_class import User
-from urllib.parse import urlencode
 
 ourfriends = User()
 user1_id = input('Input id user №1 : ')
