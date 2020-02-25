@@ -19,10 +19,4 @@ class User:
         query = "{site}/friends.getMutual?access_token={access_token}&source_uid={source_uid}&target_uid={target_uid}&v=5.103".format(**query_params)
         response = requests.get(query).json()
         self.response = response
-
-    # def __and__(self, other):
-    #     self = users.user1_id
-    #     self.user2_id
-
-    def __str__(self):
         pprint(f'ID Our friends : {self.response["response"]}')
