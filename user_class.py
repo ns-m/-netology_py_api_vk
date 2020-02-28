@@ -7,7 +7,7 @@ class User:
         self.user1_id = user1_id
         self.user2_id = user2_id
         vk = "https://api.vk.com/method"
-        access_token = '2a0545aa68a19df8fb37eb969049ac8c06e0f80191a7608cb539ea6bb017b01296311ece43998aee0a577'
+        access_token = ''# Input token
 
         query_params = {
             'site': vk,
